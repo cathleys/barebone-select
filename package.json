@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "check-format": "prettier --check",
     "lint": "next lint"
   },
   "dependencies": {
@@ -19,5 +20,10 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "4.9.5"
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.26",
+    "eslint-config-prettier": "^8.6.0",
+    "prettier": "2.8.3"
   }
 }
